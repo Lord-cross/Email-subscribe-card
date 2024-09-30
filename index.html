@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Email Subscribe Card</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body
+        class="bg-orange-700 h-lvh flex justify-center items-center">
+        <!-- Card -->
+        <div
+            class="Card-container mx-6 text-center flex flex-col md:flex-row p-2 rounded-lg bg-amber-100">
+            <!-- Image -->
+            <img
+                class="h-80 md:w-64 object-cover rounded-xl p-1 cursor-pointer hover:scale-105 duration-200"
+                src="asset/img.jpg" alt>
+            <!-- Content -->
+            <div
+                class="content-container w-min md:p-12 p-6 pt-3 md:pt-1 flex flex-col md:justify-center items-center justify-between space-y-3 md:space-y-10">
+                <h3
+                    class="font-bold text-nowrap leading-5 p-2 text-lg text-orange-950">Get
+                    diet and
+                    fitness
+                    tips in your
+                    inbox</h3>
+                <p class="text-sm tracking-wide">Eat better and
+                    exercise
+                    better. Sign up for
+                    the Diet&Fitness
+                    newsletter. </p>
+                <!-- Input -->
+                <div
+                    class="input-container w-full flex flex-col justify-center md:flex-row md:space-x-3 space-y-3">
+                    <input type="email"
+                        class="text-center w-full rounded-md md:rounded-sm border border-orange-700 p-2 text-orange-950 focus:outline-none mt-2"
+                        placeholder="Enter your e-mail">
+                    <button
+                        class="mt-2 bg-orange-700 text-white rounded-md md:rounded-sm p-2 hover:bg-orange-900 duration-300 font-bold">Submit</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
